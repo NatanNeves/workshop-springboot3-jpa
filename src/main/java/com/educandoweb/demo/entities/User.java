@@ -19,13 +19,13 @@ public class User implements Serializable{
 	private Long Id;
 	private String name;
 	private String email;
-	private Integer phone;
+	private String phone;
 	private String password;
 	
 	public User() {
 	}
 
-	public User(Long id, String name, String email, Integer phone, String password) {
+	public User(Long id, String name, String email, String phone, String password) {
 		super();
 		Id = id;
 		this.name = name;
